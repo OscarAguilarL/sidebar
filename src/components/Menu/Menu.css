@@ -1,0 +1,36 @@
+.Menu {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  padding-inline-start: 0.5rem;
+}
+
+.menu-hamburguer {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  border-radius: 1rem;
+  transition: background 0.5s ease;
+  vertical-align: middle;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title {
+  font: var(--subtitle1);
+  overflow: hidden;
+  max-block-size: 24px;
+}
+
+.menu-hamburguer:hover {
+  background: var(--blueBg);
+}

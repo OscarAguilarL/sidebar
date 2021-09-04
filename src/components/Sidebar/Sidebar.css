@@ -4,6 +4,7 @@
   background-color: var(--white);
   transition: width .7s ease-in;
   padding-inline-end: 8px;
+  padding-block-start: 1.25rem;
   overflow: hidden;
 }
 
