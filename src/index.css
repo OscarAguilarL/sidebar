@@ -9,7 +9,7 @@
   --blueBg: #c5dcfa;
   --baseFont: 'Manrope', sans-serif;
   --subtitle1: normal 700 1rem/1.5rem var(--baseFont);
-  --overline: normal 800 0.625rem/1rem var(--baseFont);
+  --overline: normal 800 0.8rem/1rem var(--baseFont);
 }
 
 * {

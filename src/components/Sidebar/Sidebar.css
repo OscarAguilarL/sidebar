@@ -3,11 +3,17 @@
   block-size: 100vh;
   background-color: var(--white);
   transition: width .7s ease-in;
-  padding-inline-end: 8px;
+  padding-inline-end: 12px;
   padding-block-start: 1.25rem;
   overflow: hidden;
 }
 
 .Sidebar.is-open {
   inline-size: 15.5rem;
+}
+
+.Sidebar .sidebar-header {
+  font: var(--overline);
+  padding-inline-start: 1.25rem;
+  padding-block: 1rem;
 }
