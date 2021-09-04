@@ -1,0 +1,12 @@
+.Sidebar {
+  inline-size: 64px;
+  block-size: 100vh;
+  background-color: var(--white);
+  transition: width .7s ease-in;
+  padding-inline-end: 8px;
+  overflow: hidden;
+}
+
+.Sidebar.is-open {
+  inline-size: 15.5rem;
+}
