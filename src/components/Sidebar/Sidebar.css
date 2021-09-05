@@ -2,7 +2,7 @@
   inline-size: 64px;
   block-size: 100vh;
   background-color: var(--white);
-  transition: width .7s ease-in;
+  transition: width .4s ease-in;
   padding-inline-end: 12px;
   padding-block-start: 1.25rem;
   overflow: hidden;
