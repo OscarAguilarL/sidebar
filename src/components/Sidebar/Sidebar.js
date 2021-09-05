@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Menu } from '../Menu/Menu';
 import { NavigationItem } from '../NavigationItem/NavigationItem';
 
+import 'animate.css';
+
 import './Sidebar.css';
 
 const navItems = [
@@ -30,7 +32,11 @@ export const Sidebar = () => {
           selected={item.selected}
         />
       ))}
-      <p className="sidebar-header" >Categorias</p>
+      {isOpen && (
+        <p className="sidebar-header animate__animated animate__fadeIn">
+          Categorias
+        </p>
+      )}
       {navCategorieItems.map((item) => (
         <NavigationItem
           icon={item.icon}
