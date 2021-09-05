@@ -7,7 +7,7 @@ export const NavigationItem = ({ icon, title, selected }) => {
       <button className="navigationItem-button">
         <i className={`icon-${icon}`} aria-hidden="true"></i>
       </button>
-      <p className="navigationItem-title">{title}</p>
+      <p className={`navigationItem-title ${selected && 'is-selected'}`}>{title}</p>
     </div>
   );
 };

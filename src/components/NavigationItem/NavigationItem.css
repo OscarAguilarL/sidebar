@@ -22,6 +22,11 @@
 }
 
 .navigationItem-title {
+  color: var(--grey);
+}
+
+.navigationItem-title.is-selected {
+  color: var(--primary);
 }
 
 .navigationItem.is-selected,
