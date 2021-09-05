@@ -32,11 +32,13 @@ export const Sidebar = () => {
           selected={item.selected}
         />
       ))}
-      {isOpen && (
-        <p className="sidebar-header animate__animated animate__fadeIn">
-          Categorias
-        </p>
-      )}
+      <p
+        className={`sidebar-header ${
+          isOpen && 'is-open'
+        } animate__animated animate__fadeIn`}
+      >
+        Categorias
+      </p>
       {navCategorieItems.map((item) => (
         <NavigationItem
           icon={item.icon}

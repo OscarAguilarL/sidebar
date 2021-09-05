@@ -16,4 +16,9 @@
   font: var(--overline);
   padding-inline-start: 1.25rem;
   padding-block: 1rem;
+  display: none;
+}
+
+.Sidebar .sidebar-header.is-open {
+  display: block;
 }
