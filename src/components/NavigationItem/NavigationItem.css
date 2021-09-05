@@ -9,6 +9,7 @@
   padding-inline-start: 1rem;
   border-radius: 0 0.75rem 0.75rem 0;
   transition: background-color .3s ease;
+  text-decoration: none;
   cursor: pointer;
 }
 
@@ -25,7 +26,7 @@
   color: var(--grey);
 }
 
-.navigationItem-title.is-selected {
+.navigationItem.is-selected .navigationItem-title {
   color: var(--primary);
 }
 
